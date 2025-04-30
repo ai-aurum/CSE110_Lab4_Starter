@@ -36,8 +36,4 @@ function discountPrices(prices, discount) {
     return discounted;
 }
 
-console.log(sumValues(1, 2, true));
-console.log(sumValues(1, 2, false));
-console.log(discountPrices([20, 50, 100], 0.75))
-
 module.exports = {sumValues, discountPrices};
